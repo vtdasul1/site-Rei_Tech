@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: calibri;
+    font-size: 18px;
+    color: #333333;
+
+}
+
+header {
+    background-color: #1a80a8;
+}
+
+header a {
+    color:#bbbbbb;
+    text-decoration: nome;
+}
+
+article a {
+ background-color: #1a80a8;
+    color: #333333;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #1a80a8;
+    color: #fffefe;
+}
