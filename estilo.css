@@ -1,27 +1,45 @@
+* {
+ margin: 0;
+}
+
 body {
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(255, 255, 255, 0.144);
     font-family: calibri;
     font-size: 18px;
     color: #333333;
 
 }
 
-header {
-    background-color: #1a80a8;
+.topo {
+    background-color: #157cc0ef;
+    padding: 10px;
+
 }
 
-header a {
+.topo a {
     color:#bbbbbb;
     text-decoration: nome;
+
 }
 
 article a {
- background-color: #1a80a8;
+ background-color: #157cc0ef;
     color: #333333;
     text-decoration: none;
-}
+    padding: 04px;
 
-footer{
-    background-color: #1a80a8;
+}
+article{
+ background-color: #bbbbbb;
+    padding: 50px;
+margin-bottom: 50px;
+}
+.rodape{
+    background-color: #157cc0ef;
     color: #fffefe;
+    padding: 40px;
+
+}
+main{
+    padding: 10px;
 }
