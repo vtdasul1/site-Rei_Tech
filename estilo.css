@@ -7,18 +7,12 @@ body {
     font-family: calibri;
     font-size: 18px;
     color: #333333;
-
+    
 }
 
 .topo {
     background-color: #157cc0ef;
-    padding: 50px;
-    
-
-}
-.topo img{
-    width: 100px;
-
+    padding: 60px;
 }
 
 .topo a {
@@ -33,13 +27,18 @@ body {
     text-decoration: none;
     padding: 04px;
     display: inline-block;
-    
+    border-radius: 50px;
+}
+
+.botao:hover {
+    background-color: #fffefe;
+
 }
 
 .materia{
     background-color: #bbbbbb;
-    padding: 50px;
-    margin-bottom: 50px;
+    padding: 30px;
+    margin-bottom: 30px;
     width: 600px;
     text-align: center;
     margin-left: auto;
@@ -91,6 +90,12 @@ body {
 main{
     padding: 10px;
 
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(600px,1fr));
+    gap: 50px;
 }
 
 .titulo {
