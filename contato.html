@@ -26,10 +26,43 @@
 
 </header>
    <main>
-          <!--<h1> titulo. <p> texto.-->
-         <h1 class="titulo">Contato</h1>
-         <p class="texto">Bem vindo ao Rei Tech, site de notícia. tudo sobre tecnologia!.</p>
-        
+      <!--<h1> titulo. <p> texto.-->
+      <h1 class="titulo">Contato</h1>
+      <p class="texto">Bem vindo ao Rei Tech, site de notícia. tudo sobre tecnologia!.</p>
+      
+      <!--Corpo do formulario-->
+      <form class="contato">
+         <!--campo nome-->
+         <label class="rotulo">
+            Nome
+            <!--criar o campo do formulario-->
+            <input class="campo" type="text">
+         </label>
+            <!--campo email-->
+         <label class="rotulo">
+            E-mail
+            <input class="campo" type="email">
+         </label>
+            <!--campo assunto-->
+         <label class="rotulo">
+            Assunto
+            
+            <select class="campo">
+               <option>Dúvidas</option>
+               <option>Sugestões</option>
+               <option>Críticas</option>
+            </select>
+         </label>
+         <!--campo mensagem-->
+         <label class="rotulo">
+            Mensagem
+            <textarea class="campo"></textarea>
+         </label>
+         <!--Botão enviar-->
+         <button class="botao">Enviar</button>
+      </form>
+      
+
    </main>
 <!--<footer> criar rodape do site-->
 <footer class="rodape">
