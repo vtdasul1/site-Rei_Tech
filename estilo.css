@@ -152,3 +152,7 @@ textarea.campo{
     background-color: #ffffffec;
     outline: none;
 }
+
+.mapa{
+    width: 100%;
+}
