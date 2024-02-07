@@ -13,7 +13,8 @@ body {
 
 .topo {
     background-color: #157cc0ef;
-    padding: 60px;
+    padding: 10px;
+    font-size: 15px;
 }
 
 .topo a {
@@ -43,7 +44,7 @@ body {
     background-color: #bbbbbb;
     padding: 30px;
     margin-bottom: 30px;
-    width: 600px;
+    width: 320px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -98,7 +99,7 @@ main{
 
 .grade {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(600px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
     gap: 50px;
 }
 
