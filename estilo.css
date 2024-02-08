@@ -48,6 +48,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
 }
 
 .materia img{
@@ -55,7 +56,7 @@ body {
 }
 .materia h1{
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 25px;
     color: #000000ef;
 }
 
@@ -109,7 +110,7 @@ main{
     margin-top: 10px;
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman';
-
+    font-size: 35px;
 }
 
 .texto {
@@ -156,4 +157,15 @@ textarea.campo{
 
 .mapa{
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .topo a {
+        font-size: 18px;
+
+    }
+
+        .materia h1 {
+            font-size: 30px;
+        }
 }
