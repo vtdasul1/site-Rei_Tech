@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
-    <title>Rei Tech</title>
-      <!--<link>-->
-     <link href="estilo.css" rel="stylesheet" >
+   <!--Informações para o Navegador-->
+   <!--Usuário não tem acesso a essas informações-->
+   <title>Rei Tech</title>
+   <meta charset="UTF-8">
+   <!-- Passa informações ao navegador 1 - para não ficar dando zoom, 2- largura será a mesma do dispositivo, 3 - já inicia vizualização em 100% -->
+   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
+   <!--<link> cria um vinculo com um arquivo através do atributo href, e o tripo de relação do arquivo-->
+   <link href="estilo.css" rel="stylesheet" >
 
 </head>
 <body>
@@ -15,30 +18,36 @@
 
    <!--<nav> cria o menu de navegaçaõ-->
    <nav class="navegacao">  
-      <!--<a> "ancora, desta forma tras uma imagem e um link - deixa a imagem clicavel"-->
+      <!--<a> "ancora, desta forma tras uma imagem e um link juntos - deixa a imagem clicavel"-->
       <a href="index.html"><img src="rei-tech-png.png" height="70" width="70"></a>      
       <ul class="menu">
+         <!--<ul> Cria uma lista-->
          <li><a href="index.html">Home</a></li>
+         <!-- <li> cria o elementos de uma lista-->
          <li><a href="contato.html">Contato </a></li>
          <li><a href="dicas.html"> Dicas </a></li> 
       </ul>
    </nav> 
 
 </header>
+   <!--corpo do site-->
    <main>
-          <!--<h1> titulo. <p> texto.-->
-         <h1 class="titulo">Rei Tech</h1>
-         <p class="texto">Bem vindo ao Rei Tech, site de notícia. tudo sobre tecnologia!.</p>
+      <!--<h1> titulo-->
+      <h1 class="titulo">Rei Tech</h1>
+      <!--<p> paràgrefo-->
+      <p class="texto">Bem vindo ao Rei Tech, site de notícia. tudo sobre tecnologia!.</p>
          
-         <!--materia do lançamento do s24-->
-
-
+      <!--<div> divisão, cria arquivos individuais-->
+      <!-- fica mais facil de aplicar CSS-->
       <div class="grade">
+         <!--Materia 1-->
          <article class="materia">
             <h1>Galaxy S24, S24 Plus e S24 Ultra são lançados pela Samsung; veja preços </h1>
             <p>A Samsung lançou, nesta quarta-feira (17), o Galaxy S24 no Brasil com preço sugerido de R$ 5.999.</p>
-            <img src="Galaxy_S24Plus.png"> 
+            <img src="Galaxy_S24Plus.png">
+            <!-- img - insere imagem com utilização do atributo src--> 
             <a class="botao" href="https://www.techtudo.com.br/noticias/2024/01/galaxy-s24-s24-plus-e-s24-ultra-sao-lancados-pela-samsung-veja-precos-edmobile.ghtml">Saiba mais</a>
+            <!--a "ancora" insere um link atraves do atributo href-->
          </article>
          <!--materia 2 do lançamento do s24-->
          <article class="materia">

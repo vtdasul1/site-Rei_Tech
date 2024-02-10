@@ -1,8 +1,9 @@
+/* Retira a margem de todos os elementos*/
 * {
  margin: 0;
  box-sizing: border-box;
 }
-
+/* Modifica todo o corpo do site*/
 body {
     background-color: rgba(255, 255, 255, 0.144);
     font-family: calibri;
@@ -10,19 +11,20 @@ body {
     color: #333333;
     
 }
-
+/*Atribui modificações a class .topo que é o hear, nosso cabeçalho*/
 .topo {
     background-color: #157cc0ef;
     padding: 10px;
-    font-size: 15px;
+    font-size: 15px; /*adicionado para resolução 320*/
 }
-
+/*Atribui modificações a class .topo a, que são os "ancoras" , os links do cabeçalho*/
 .topo a {
     color:#bbbbbb;
     text-decoration: none;
 
 }
-
+/*Anterior era a class .materia a */
+/* Atribui modificações a class .botao, que é o link de nossas matérias ou noticias*/
 .botao {
     background-color: #157cc0ef;
     color: #080808;
@@ -39,12 +41,12 @@ body {
     background-color: #fffefe;
 
 }
-
+/*Atribui modificações a class .materia, que é nosso article, nossas materias ou notícias*/
 .materia{
     background-color: #bbbbbb;
     padding: 30px;
     margin-bottom: 30px;
-    width: 320px;
+    width: 320px; /*Modificado tamanho maximo para resolução 320*/
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -78,7 +80,7 @@ body {
 
 
 }
-
+/*Atribui modificações a class .rodape, que é o nosso footer o rodapé do site*/
 .rodape{
     background-color: #157cc0ef;
     color: #fffefe;
@@ -92,7 +94,7 @@ body {
 
 
 }
-
+/* Atribui modificações a estrutura do conteudo do Site*/
 main{
     padding: 10px;
 
